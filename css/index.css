@@ -1,12 +1,14 @@
-/* Header */
+/*It is common to the whole website*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+/* Header */
+
 /* Menu */
-.menu {
+.header-menu {
   background: #dedede;
   padding: 10px 20px;
   background: #fff;
@@ -51,9 +53,9 @@
   text-transform: uppercase;
 }
 
-.navbar .navbar-menu ul li:first-child {
+/*.navbar .navbar-menu ul li:first-child {
   background: #e7e7e7;
-}
+}*/
 
 .navbar .navbar-menu ul li a {
   text-decoration: none;
