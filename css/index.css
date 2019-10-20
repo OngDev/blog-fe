@@ -1,8 +1,22 @@
+/*It is common to the whole website*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 /* Header */
 
-
 /* Menu */
+#menu {
+  background: #dedede;
+  padding: 10px 20px;
+  background: #fff;
+}
 
+.navbar {
+  display: flex;
+}
 
 /* Cover */
 #cover {
@@ -36,12 +50,81 @@
     z-index: 1;
 }
 /* Main */
+.navbar .navbar-branch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  font-size: 18px;
+}
 
+.navbar .navbar-branch a {
+  text-decoration: none;
+  color: #5e5e5e;
+}
+
+.navbar .navbar-menu {
+  display: flex;
+  padding: 10px 20px;
+  width: 75%;
+  justify-content: flex-end;
+}
+
+.navbar .navbar-menu ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.navbar .navbar-menu ul li {
+  list-style-type: none;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 0 5px;
+  border-radius: 5%;
+  text-transform: uppercase;
+}
+
+.navbar .navbar-menu ul li a {
+  text-decoration: none;
+  color: #5e5e5e;
+}
+
+.navbar .navbar-menu ul li a:hover {
+  color: orangered;
+}
+
+
+/* Main */
 
 /* Articles */
 
-
 /* Side menu */
 
-
 /* Footer */
+footer {
+    position: absolute;
+    background-color: #323437;
+    color: #EFEDF6;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: right;
+    padding: 40px;
+}
+
+footer table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 100%;
+}
+
+footer table a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer table a:hover {
+    color: #cfcfcf;
+    transition: 0.25s;
+}
