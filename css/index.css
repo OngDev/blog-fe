@@ -17,8 +17,7 @@
 
 
 /* Footer */
-footer
-{
+footer {
     position: absolute;
     background-color: #323437;
     color: #EFEDF6;
@@ -29,20 +28,18 @@ footer
     padding: 40px;
 }
 
-footer table 
-{
+footer table {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    width: 100%;
 }
 
-footer table a
-{
+footer table a {
     text-decoration: none;
     color: #ffffff;
 }
 
-footer table a:hover
-{
+footer table a:hover {
     color: #cfcfcf;
-    transition: 0.5s;
+    transition: 0.25s;
 }
