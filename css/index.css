@@ -17,3 +17,32 @@
 
 
 /* Footer */
+footer
+{
+    position: absolute;
+    background-color: #323437;
+    color: #EFEDF6;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: right;
+    padding: 40px;
+}
+
+footer table 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+footer table a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer table a:hover
+{
+    color: #cfcfcf;
+    transition: 0.5s;
+}
