@@ -20,6 +20,7 @@
 
 /* Cover */
 #cover {
+    background-image: url(http://duyngd.com/wp-content/uploads/2019/01/cropped-pexels-photo-747964-2-2.jpeg);
     height: 350px;
     width: 100%;
     background-size: cover;
@@ -43,7 +44,7 @@
 #cover h1 {
     width: 60%;
     margin-left: 20%;
-    color:white;
+    color: white;
     text-align: center;
     font-size: 2.5em;
     font-family: sans-serif;
