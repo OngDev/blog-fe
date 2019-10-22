@@ -50,7 +50,7 @@
     font-family: sans-serif;
     z-index: 1;
 }
-/* Main */
+ 
 .navbar .navbar-branch {
   display: flex;
   align-items: center;
@@ -94,7 +94,6 @@
 .navbar .navbar-menu ul li a:hover {
   color: orangered;
 }
-
 
 /* Main */
 
