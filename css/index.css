@@ -20,37 +20,37 @@
 
 /* Cover */
 #cover {
-    background-image: url(http://duyngd.com/wp-content/uploads/2019/01/cropped-pexels-photo-747964-2-2.jpeg);
-    height: 350px;
-    width: 100%;
-    background-size: cover;
-    display: flex;
-    background-position: center center;
-    justify-items: center;
-    align-items: center;
-    position: relative;
+  background-image: url(http://duyngd.com/wp-content/uploads/2019/01/cropped-pexels-photo-747964-2-2.jpeg);
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  background-position: center center;
+  justify-items: center;
+  align-items: center;
+  position: relative;
 }
 
-#overlay {      
-    background-color: black;
-    opacity: 0.5;
-    position: absolute;         /*points to relative parents*/
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 350px;
+#overlay {
+  background-color: black;
+  opacity: 0.5;
+  position: absolute; /*points to relative parents*/
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 350px;
 }
 
 #cover h1 {
-    width: 60%;
-    margin-left: 20%;
-    color: white;
-    text-align: center;
-    font-size: 2.5em;
-    font-family: sans-serif;
-    z-index: 1;
+  width: 60%;
+  margin-left: 20%;
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: sans-serif;
+  z-index: 1;
 }
- 
+
 .navbar .navbar-branch {
   display: flex;
   align-items: center;
@@ -96,35 +96,119 @@
 }
 
 /* Main */
-
+main {
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+  background-color: white;
+  margin: -60px 30px;
+  position: relative;
+  border-radius: 10px;
+}
 /* Articles */
-
+#articles {
+  width: 70%;
+  padding: 30px;
+}
 /* Side menu */
+#side-menu {
+  width: 30%;
+  padding: 50px;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.search-input {
+  width: 85%;
+}
+
+.search-input input {
+  width: 100%;
+  border: none;
+  font-size: 15px;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 10px;
+}
+
+.search-input input:focus {
+  outline-width: 0;
+}
+
+.search-button {
+  width: 15%;
+}
+
+.search-button button {
+  width: 100%;
+  height: 100%;
+  background-color: #e750a0;
+  border-radius: 5px;
+  border-width: 0;
+}
+
+.search-button button i {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.side-menu-item {
+  padding: 0px 20px;
+}
+
+.side-menu-item h3 {
+  padding: 20px 0px 0px 0px;
+}
+
+.side-menu-item a {
+  text-decoration: none;
+  color: #8a8383;
+}
+
+.side-menu-item div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.side-menu-item .news {
+  padding: 10px;
+}
+
+.side-menu-item .storage {
+  padding: 10px;
+}
+
+.side-menu-item .category {
+  padding: 10px;
+}
 
 /* Footer */
 footer {
-    position: absolute;
-    background-color: #323437;
-    color: #EFEDF6;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: right;
-    padding: 40px;
+  position: absolute;
+  background-color: #323437;
+  color: #efedf6;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: right;
+  padding: 40px;
 }
 
 footer table {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  width: 100%;
 }
 
 footer table a {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 footer table a:hover {
-    color: #cfcfcf;
-    transition: 0.25s;
+  color: #cfcfcf;
+  transition: 0.25s;
 }
