@@ -1,0 +1,16 @@
+@media screen and (min-width: 540px) {
+    /* Featured Posts */
+    #feature-posts {
+        margin: 0px 80px;
+    }
+
+    /* Posts */
+    #posts {
+        margin: 0px 80px;
+    }
+
+    /* About */
+    #about {
+        margin: 0px 80px;
+    }
+}
