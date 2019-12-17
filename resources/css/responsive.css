@@ -1,16 +1,11 @@
 @media screen and (min-width: 540px) {
-    /* Featured Posts */
-    #feature-posts {
-        margin: 0px 80px;
+    .posts-container {
+        margin: 0vh 10vh;
     }
 
-    /* Posts */
-    #posts {
-        margin: 0px 80px;
-    }
-
-    /* About */
+    #feature-posts, 
+    #posts,
     #about {
-        margin: 0px 80px;
+        padding: 0vh 10vh;
     }
 }

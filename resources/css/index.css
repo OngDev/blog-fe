@@ -23,6 +23,7 @@
     height: 340px;
     background-color: crimson;
     text-align: center;
+    padding: 0vh 7vh;
 }
 
 /* Posts */
@@ -30,6 +31,7 @@
     height: 340px;
     background-color: greenyellow;
     text-align: center;
+    padding: 0vh 7vh;
 }
 
 /* About */
@@ -37,6 +39,7 @@
     height: 256px;
     background-color: blueviolet;
     text-align: center;
+    padding: 0vh 7vh;
 }
 
 /* Footer */
