@@ -1,0 +1,11 @@
+@media screen and (min-width: 540px) {
+    .posts-container {
+        margin: 0vh 10vh;
+    }
+
+    #feature-posts, 
+    #posts,
+    #about {
+        padding: 0vh 10vh;
+    }
+}

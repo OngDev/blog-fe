@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cover */
+#cover {
+    height: 256px;
+    background-color: green;
+    text-align: center;
+}
+
+/* Header */
+#header {
+    height: 60px;
+    background-color: orange;
+    text-align: center;
+}
+
+/* Featured Posts */
+#feature-posts {
+    height: 340px;
+    background-color: crimson;
+    text-align: center;
+    padding: 0vh 7vh;
+}
+
+/* Posts */
+#posts {
+    height: 340px;
+    background-color: greenyellow;
+    text-align: center;
+    padding: 0vh 7vh;
+}
+
+/* About */
+#about {
+    height: 256px;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 0vh 7vh;
+}
+
+/* Footer */
+#footer {
+    height: 256px;
+    background-color: azure;
+    text-align: center;
+}
