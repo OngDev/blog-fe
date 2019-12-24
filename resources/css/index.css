@@ -56,14 +56,6 @@
   font-size: 16px;
 }
 
-#search #search-input:hover {
-  box-shadow: 0px 0px 5px rgb(220, 220, 220);
-}
-
-#search #search-input:focus {
-  box-shadow: 0px 0px 5px rgb(220, 220, 220);
-}
-
 .slide-down {
   animation: slide-down 0.8s forwards;
 }
