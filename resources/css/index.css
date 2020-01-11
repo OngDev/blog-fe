@@ -30,7 +30,7 @@
   height: 50vh;
   width: 100%;
   position: absolute; /*absolute to cover block*/
-  background-color: rgba(63, 34, 27, 0.5);
+  background-color: rgba(63, 34, 27, 0.5); /*Microsoft Edge doesn't accept 8 digit hex color*/
 }
 
 /* Header */
