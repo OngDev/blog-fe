@@ -1,15 +1,15 @@
 const dummyCover = 'resources/images/dummyimage1.jpg';
 const str = '#BLOG';
 
-let coverBackground = document.getElementById('cover');
-coverBackground.setAttribute('style',
+const coverBlock = document.getElementById('cover');
+coverBlock.setAttribute('style',
 `background-image: url(${dummyCover})`,
 );
 
-let coverOverlay = document.createElement('div');
+const coverOverlay = document.createElement('div');
 coverOverlay.classList.add('overlay');
-coverBackground.appendChild(coverOverlay);
+coverBlock.appendChild(coverOverlay);
 
-let coverTitle = document.createElement('h1');
+const coverTitle = document.createElement('h1');
 coverTitle.innerHTML = str;
-coverBackground.appendChild(coverTitle);
+coverBlock.appendChild(coverTitle);
