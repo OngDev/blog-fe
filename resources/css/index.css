@@ -169,7 +169,7 @@ footer{
 }
 h3.title{
   padding-bottom: 10px;
-  color: rgb(54, 124, 124);
+  color: #367c7c;
   font-size: 20px;
 }
 .social-icon .icon{
@@ -183,11 +183,11 @@ h3.title{
   line-height: 40px;
   border-radius: 50%;
   margin-left: 5px;
-  background: rgb(54, 124, 124);
+  background: #367c7c;
   transition: all .4s;
 }
 .social-icon .icon li a:hover{
-  background: rgb(68, 153, 153);
+  background: #449999;
 }
 form{
   display: flex;
@@ -197,11 +197,11 @@ form{
   padding: 10px;
   width: 70%;
   outline: none;
-  background: rgb(192, 192, 192);
+  background: #e4e4e4;
 }
 #footer input[type="submit"]{
   border: none;
-  background: rgb(54, 124, 124);
+  background: #367c7c;
   outline: none;
   padding: 10px;
   color: #fff;
@@ -226,30 +226,11 @@ form{
 .box{
   padding: 10px 15px;
   border-radius: 20px;
-  background: rgb(54, 124, 124);
+  background: #367c7c;
   margin-left: 5px;
   margin-bottom: 5px;
   transition: all .4s;
 }
 .box:hover{
-  background: rgb(68, 153, 153);
-}
-
-@media screen and (max-width: 1024px){
-  #footer{
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .footer>div:first-of-type{
-      margin-top: 0px;
-  }
-  .footer>div{
-      width: 50%;
-  }
-}
-@media screen and (max-width: 767px){
-  .footer>div{
-      margin-top: 20px;
-      width: 100%;
-  }
+  background: #449999;
 }
