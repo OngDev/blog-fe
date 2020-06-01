@@ -140,42 +140,42 @@
 }
 
 /* Footer */
-#footer{
+#footer {
   padding: 30px 0px;
 }
-a{
+#footer a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 }
-.container{
+.container {
   max-width: 1124px;
   margin: 0 auto;
   padding: 0px 10px;
 }
-.list-unstyled{
+.list-unstyled{ 
   list-style: none;
 }
-footer{
-  background: #111;
-  color: #fff;
+footer {
+  background: #111111;
+  color: #ffffff;
   padding: 30px 0px;
 }
-.footer{
+.footer {
   display: flex;
   flex-wrap: wrap;
 }
-.footer>div{
+.footer>div {
   width: 33.3%;
 }
-h3.title{
+h3.title {
   padding-bottom: 10px;
   color: #367c7c;
   font-size: 20px;
 }
-.social-icon .icon{
+.social-icon .icon {
   display: flex;
 }
-.social-icon .icon li a{
+.social-icon .icon li a {
   display: block;
   width: 40px;
   height: 40px;
@@ -186,20 +186,20 @@ h3.title{
   background: #367c7c;
   transition: all .4s;
 }
-.social-icon .icon li a:hover{
+.social-icon .icon li a:hover {
   background: #449999;
 }
-form{
+form {
   display: flex;
 }
-#footer input[type="text"]{
+#footer input[type="text"] {
   border: none;
   padding: 10px;
   width: 70%;
   outline: none;
   background: #e4e4e4;
 }
-#footer input[type="submit"]{
+#footer input[type="submit"] {
   border: none;
   background: #367c7c;
   outline: none;
@@ -210,20 +210,20 @@ form{
   cursor: pointer;
   width: 30%;
 }
-.copyright{
+.copyright {
   padding-top: 10px;
 }
-.copyright p{
+.copyright p {
   text-align: center;
   margin: 0;
   padding-top: 10px;
   border-top: 1px solid #fff;
 }
-.contain-box{
+.contain-box {
   display: flex;
   flex-wrap: wrap;
 }
-.box{
+.box {
   padding: 10px 15px;
   border-radius: 20px;
   background: #367c7c;
@@ -231,6 +231,6 @@ form{
   margin-bottom: 5px;
   transition: all .4s;
 }
-.box:hover{
+.box:hover {
   background: #449999;
 }
