@@ -137,8 +137,7 @@ a {
 .posts-contain {
   display: flex;
   padding: 20px;
-  box-shadow: 2px 2px 15px 0px #11111191;
-  border-left: 5px solid #367c7c;
+  box-shadow: 2px 2px 15px 0px rgba(000, 000, 000, 0.5);
   flex-wrap: wrap;
 }
 .posts-contain .imgBox {
@@ -193,7 +192,6 @@ a {
 
 /* Footer */
 #footer {
-<<<<<<< HEAD
   padding: 30px 0px;
 }
 #footer a {
@@ -286,9 +284,7 @@ form {
 }
 .box:hover {
   background: #449999;
-=======
   height: 256px;
   background-color: azure;
   text-align: center;
->>>>>>> d51cf63... Edit content container
 }

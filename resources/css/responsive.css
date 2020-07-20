@@ -97,11 +97,8 @@
   }
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 1024px){
-=======
-@media screen and (min-width: 0px) and (max-width: 900px){
->>>>>>> d51cf63... Edit content container
+
+@media screen and (max-width: 900px){
   /* Footer */
   #footer {
     padding-left: 10px;
