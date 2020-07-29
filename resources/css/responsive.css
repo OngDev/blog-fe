@@ -71,7 +71,7 @@
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 900px) {
   #header #brand-name {
     width: 20%;
   }
@@ -95,11 +95,7 @@
     padding-top: 0;
     margin-left: 16px;
   }
-}
 
-
-@media screen and (max-width: 900px){
-  /* Footer */
   #footer {
     padding-left: 10px;
     padding-right: 10px;
@@ -111,11 +107,12 @@
     margin-top: 20px;
     width: 100%;
   }
-  .posts-contain .posts-content {
+  .post .posts-content {
     width: 100%;
     margin: 20px 0px 0px 0px;
   }
-  .posts-contain .imgBox {
+  .post .imgBox {
     width: 100%;
   }
 }
+

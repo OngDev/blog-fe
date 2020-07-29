@@ -131,24 +131,24 @@ a {
   text-align: center;
   padding: 1vh 7vh;
 }
-.posts-contain:not(:last-of-type) {
+.post:not(:last-of-type) {
   margin-bottom: 20px;
 }
-.posts-contain {
+.post {
   display: flex;
   padding: 20px;
   box-shadow: 2px 2px 15px 0px rgba(000, 000, 000, 0.5);
   flex-wrap: wrap;
 }
-.posts-contain .imgBox {
+.post .imgBox {
   width: 30%;
 }
-.posts-contain .posts-content {
+.post .posts-content {
   text-align: left;
   margin-left: 20px;
   width: 60%;
 }
-.posts-contain .imgBox img {
+.post .imgBox img {
   width: 100%;
   display: block;
 }
