@@ -61,6 +61,12 @@ a {
 
 .postCategory {
     margin-top: 0px;
+    padding: 5px 10px;
+    background: #262626;
+    display: inline-block;
+    color: #FBFBFB;
+    font-size: 11px;
+    margin-top: 10px;
 }
 
 .postTitle {
