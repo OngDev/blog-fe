@@ -9,9 +9,11 @@ window.onload = function(){
         e.preventDefault();
         searchContain.classList.toggle("active");
         if(searchContain.classList.contains("active")){
+            textNav.classList.add("hide");
             overlay.classList.add("active");
         }else {
             overlay.classList.remove("active");
+            textNav.classList.remove("hide");
         }
     });
 
