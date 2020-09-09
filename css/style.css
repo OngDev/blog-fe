@@ -24,6 +24,7 @@ a {
 .postContain {
     position: relative;
     padding: 35px 0px 21px 40px;
+    background: #fefefe;
 }
 
 .postContain::after {
@@ -40,16 +41,20 @@ a {
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.03);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .postImg img {
     width: 100%;
-    display: block;
+    object-fit: cover;
     border-radius: 7px;
 }
 
 .postImg {
     width: 271px;
+    border-radius: 25px;
 }
 
 .postMain {
@@ -80,6 +85,7 @@ a {
     margin-top: 6px;
     font-size: 17px;
     color: #333333;
+    font-weight: 100;
 }
 
 .postInfoShare {
@@ -90,12 +96,18 @@ a {
 
 .postInfo {
     padding-right: 10px;
+    font-weight: 100;
+}
+
+.postInfo a {
+    font-weight: 700;
 }
 
 .postShare {
     padding-left: 10px;
     border-left: 1px solid #000000;
     text-decoration: underline;
+    font-weight: 100;
 }
 
 .pagination {
@@ -128,9 +140,13 @@ a {
 .txtTitle {
     color: #262626;
     position: absolute;
-    left: -125px;
+    left: -155px;
     top: 10px;
     font-size: 21px;
+}
+
+.txtTitle span {
+    letter-spacing: 0.15rem;
 }
 
 .arrowStories {
@@ -145,20 +161,44 @@ a {
     transform: rotate(-90deg);
 }
 
-@media only screen and (max-width: 757px) {
+@media only screen and (max-width: 767px) {
     .postContain {
         padding: 0px 32px;
         border: none;
     }
 
     .post {
-        border-top: 1px solid #6A6A6A;
         padding: 24px 0px;
-        margin-top: 50px;
+        padding-bottom: 0px;
+        position: relative;
     }
 
-    .postImg , .postMain {
+    .post::before {
+        content: "";
         width: 100%;
+        height: 1px;
+        background: #6A6A6A;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .postMain {
+        width: 100%;
+    }
+
+    .postImg {
+        width: 100%;
+        position: relative;
+        padding-bottom: 100%;
+    }
+
+    .postImg img {
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: absolute;
     }
 
     .postMain {
@@ -172,6 +212,10 @@ a {
     }
 
     .arrowStories {
+        display: none;
+    }
+
+    .postContain::after {
         display: none;
     }
 }
