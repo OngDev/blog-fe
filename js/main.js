@@ -1,23 +1,56 @@
 window.onload = function(){
-    const btnSearch = document.querySelector(".btnSearch");
-    const searchContain = document.querySelector(".searchContain");
-    const textNav = document.querySelector(".textNav");
-    const overlay = document.querySelector(".overlay");
-    const nav = document.querySelector("nav");
+    const postContain = document.querySelector(".postContain");
+    var data = [
+        {
+            image: "post_1.png",
+            category: "Chuyện của tôi",
+            title: "Click this card for redirect to full story",
+            sortDescription: "Lorem ipsum dolor sit amet consectetur adipiscing elit Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+            author: "Pikachu",
+            datePost: "07/07/2011"
+        },
+        {
+            image: "post_2.png",
+            category: "Chuyện của tôi",
+            title: "Click this card for redirect to full story",
+            sortDescription: "Lorem ipsum dolor sit amet consectetur adipiscing elit Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+            author: "Pikachu",
+            datePost: "07/07/2011"
+        },
+        {
+            image: "post_1.png",
+            category: "Chuyện của tôi",
+            title: "Click this card for redirect to full story",
+            sortDescription: "Lorem ipsum dolor sit amet consectetur adipiscing elit Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+            author: "Pikachu",
+            datePost: "07/07/2011"
+        },
+        {
+            image: "post_2.png",
+            category: "Chuyện của tôi",
+            title: "Click this card for redirect to full story",
+            sortDescription: "Lorem ipsum dolor sit amet consectetur adipiscing elit Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+            author: "Pikachu",
+            datePost: "07/07/2011"
+        },
+    ];
+    var post = "";
 
-    btnSearch.addEventListener("click", function(e){
-        e.preventDefault();
-        searchContain.classList.toggle("active");
-        if(searchContain.classList.contains("active")){
-            textNav.classList.add("hide");
-            overlay.classList.add("active");
-        }else {
-            overlay.classList.remove("active");
-            textNav.classList.remove("hide");
-        }
+    data.forEach(element => {
+        post += '<div class="post">' +
+                   '<div class="postImg">' +
+                        '<img src="image/' + element.image +'" alt="Image of post">' +
+                    '</div>' +
+                    '<div class="postMain">' +
+                        '<a href="#" class="postCategory">' + element.category +'</a>' +
+                        '<a href="#" class="postTitle">' + element.title +'</a>' +
+                        '<div class="postDescription">' + element.sortDescription +'</div>' +
+                        '<div class="postInfoShare">' +
+                            '<p class="postInfo">bởi <a href="#">' + element.author +'</a>, ' + element.datePost +'</p>' +
+                            '<a href="#" class="postShare">Share</a>' +
+                        '</div>' +
+                   '</div>' +
+                '</div>';
     });
-
-    overlay.addEventListener("click", function(){
-        btnSearch.click();
-    });
+    postContain.insertAdjacentHTML('beforeend', post);
 }
