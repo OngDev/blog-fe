@@ -21,13 +21,13 @@ a {
     margin: 0px auto;
 }
 
-.postContain {
+.post-contain {
     position: relative;
     padding: 35px 0px 21px 40px;
     background: #fefefe;
 }
 
-.postContain::after {
+.post-contain::after {
     content: "";
     width: 1px;
     height: 100%;
@@ -50,25 +50,25 @@ a {
     box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.03);
 }
 
-.postImg img {
+.post-img img {
     width: 100%;
     object-fit: cover;
     border-radius: 7px;
 }
 
-.postImg {
+.post-img {
     width: 271px;
     border-radius: 25px;
 }
 
-.postMain {
+.post-main {
     padding-left: 32px;
     box-sizing: border-box;
     flex-basis: 50%;
     flex-grow: 1;
 }
 
-.postCategory {
+.post-category {
     margin-top: 0px;
     padding: 5px 10px;
     background: #262626;
@@ -78,43 +78,43 @@ a {
     margin-top: 10px;
 }
 
-.postTitle {
+.post-title {
     display: block;
     margin-top: 13px;
     font-size: 26px;
     font-weight: 700;
 }
 
-.postDescription {
+.post-description {
     margin-top: 6px;
     font-size: 17px;
     color: #333333;
     font-weight: 100;
 }
 
-.postInfoShare {
+.post-info-share {
     display: flex;
     padding: 5px 0px;
     margin-top: 10px;
 }
 
-.postInfo {
+.post-info {
     padding-right: 10px;
     font-weight: 100;
 }
 
-.postInfo a {
+.post-info a {
     font-weight: 700;
 }
 
-.postShare {
+.post-share {
     padding-left: 10px;
     border-left: 1px solid #000000;
     text-decoration: underline;
     font-weight: 100;
 }
 
-.txtTitle {
+.txt-title {
     color: #262626;
     position: absolute;
     left: -155px;
@@ -122,17 +122,17 @@ a {
     font-size: 21px;
 }
 
-.txtTitle span {
+.txt-title span {
     letter-spacing: 0.15rem;
 }
 
-.arrowStories {
+.arrow-stories {
     display: inline-block;
     width: 25px;
     height: 10px;
 }
 
-.arrowStories img {
+.arrow-stories img {
     display: block;
     position: absolute;
     top: 2px;
@@ -140,7 +140,7 @@ a {
 }
 
 @media only screen and (max-width: 576px) {
-    .postContain {
+    .post-contain {
         padding: 0px 32px;
         border: none;
     }
@@ -161,13 +161,13 @@ a {
         top: 0;
     }
 
-    .postImg {
+    .post-img {
         width: 100%;
         position: relative;
         padding-bottom: 100%;
     }
 
-    .postImg img {
+    .post-img img {
         height: 100%;
         width: 100%;
         left: 0;
@@ -175,22 +175,22 @@ a {
         position: absolute;
     }
 
-    .postMain {
+    .post-main {
         width: 100%;
         padding: 16px 15px 24px 15px;
     }
 
-    .txtTitle {
+    .txt-title {
         left: 50%;
         top: -30px;
         transform: translateX(-50%);
     }
 
-    .arrowStories {
+    .arrow-stories {
         display: none;
     }
 
-    .postContain::after {
+    .post-contain::after {
         display: none;
     }
 }
