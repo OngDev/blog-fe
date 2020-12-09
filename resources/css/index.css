@@ -7,9 +7,30 @@
 
 /* Cover */
 #cover {
-  height: 256px;
-  background-color: green;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
   text-align: center;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+#cover h1 {
+  color: #ffd7aa;
+  font-size: 3.5em;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  z-index: 1;
+}
+.overlay {
+  height: 50vh;
+  width: 100%;
+  position: absolute; /*absolute to cover block*/
+  background-color: rgba(51, 27, 22, 0.6); /*Microsoft Edge doesn't accept 8 digit hex color*/
 }
 
 /* Header */
@@ -120,7 +141,96 @@
 
 /* Footer */
 #footer {
-  height: 256px;
-  background-color: azure;
+  padding: 30px 0px;
+}
+#footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.container {
+  max-width: 1124px;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+.list-unstyled{ 
+  list-style: none;
+}
+footer {
+  background: #111111;
+  color: #ffffff;
+  padding: 30px 0px;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer>div {
+  width: 33.3%;
+}
+h3.title {
+  padding-bottom: 10px;
+  color: #367c7c;
+  font-size: 20px;
+}
+.social-icon .icon {
+  display: flex;
+}
+.social-icon .icon li a {
+  display: block;
+  width: 40px;
+  height: 40px;
   text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-left: 5px;
+  background: #367c7c;
+  transition: all .4s;
+}
+.social-icon .icon li a:hover {
+  background: #449999;
+}
+form {
+  display: flex;
+}
+#footer input[type="text"] {
+  border: none;
+  padding: 10px;
+  width: 70%;
+  outline: none;
+  background: #e4e4e4;
+}
+#footer input[type="submit"] {
+  border: none;
+  background: #367c7c;
+  outline: none;
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  width: 30%;
+}
+.copyright {
+  padding-top: 10px;
+}
+.copyright p {
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  border-top: 1px solid #fff;
+}
+.contain-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  padding: 10px 15px;
+  border-radius: 20px;
+  background: #367c7c;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  transition: all .4s;
+}
+.box:hover {
+  background: #449999;
 }

@@ -96,3 +96,18 @@
     margin-left: 16px;
   }
 }
+
+@media screen and (max-width: 1024px){
+  /* Footer */
+  #footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .footer>div:first-of-type {
+      margin-top: 0px;
+  }
+  .footer>div {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
