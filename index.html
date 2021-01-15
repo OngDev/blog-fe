@@ -1,97 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Ong Dev Blog</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://kit.fontawesome.com/e40be82818.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="resources/css/index.css" />
-    <link rel="stylesheet" href="resources/css/responsive.css" />
-    <link rel="stylesheet" href="resources/css/animation.css" />
-  </head>
-
-  <body>
-    <div id="cover"></div>
-    <div id="header">
-      <div id="brand-name">Ông Dev</div>
-      <div id="header-icon">
-        <i class="fa fa-bars" onclick="headerTogger()"></i>
-      </div>
-      <div id="header-container">
-        <div id="header-items">
-          <div class="item"><a href="#">Trang chủ</a></div>
-          <div class="item"><a href="#">Làm Dev</a></div>
-          <div class="item"><a href="#">Games</a></div>
-          <div class="item"><a href="#">Giới thiệu</a></div>
-        </div>
-      </div>
-      <div id="search">
-        <input id="search-input" type="text" placeholder="Search" />
-      </div>
-    </div>
-    <div class="posts-container">
-      <div id="feature-posts">
-        <h1>Featured Posts</h1>
-        Should we feature some popular posts here, make it a slider?
-      </div>
-      <div id="posts">
-        <h1>Posts</h1>
-      </div>
-      <div id="about">
-        <h1>About</h1>
-      </div>
-    </div>
-    <div id="footer">
-      <div class="posts-container footer">
-        <div class="social-icon">
-            <h3 class="title">Social</h3>
-            <ul class="list-unstyled icon">
-                <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                <li><a href=""><i class="fa fa-youtube-play"></i></a></li>
-            </ul>
-        </div>
-        <div class="categories">
-            <h3 class="title">Categories</h3>
-            <div class="contain-box">
-                <a href="#" class="box">Custom</a>
-                <a href="#" class="box">Me</a>
-                <a href="#" class="box">Contact</a>
-                <a href="#" class="box">Custom</a>
-                <a href="#" class="box">Me</a>
-                <a href="#" class="box">Contact</a>
-            </div>
-        </div>
-        <div class="subscribe">
-            <h3 class="title">Subscribe Me</h3>
-            <div class="contain-form">
-                <form action="">
-                    <input type="text" name="email" placeholder="Enter your email">
-                    <input type="submit" value="Subscribe">
-                </form>
-            </div>
-        </div>
-      </div>
-    </div>
-  </body>
-
-  <script src="resources/js/responsive.js"></script>
-  <script src="resources/js/cover.js"></script>
-</html>
-=======
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Ông Dev Blog</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="overlay"></div>
@@ -109,12 +23,140 @@
                 </form>
             </div> 
             <div class="btnSearch">
-                <img src="./images/search.png" alt="btnSearch">
+                <img src="image/search.png" alt="btnSearch">
             </div>               
         </nav>
+        <div class="sliderPostContain container">
+            <div class="sliderPosts">
+                <div class="sliderPost">
+                    <div class="sliderPostImg">
+                        <img src="image/slider_1.png" alt="sliderPostImg">
+                    </div>
+                    <div class="sliderPostMain">
+                        <a href="" class="sliderPostTitle">Lorem ipsum dolor sit amet consectetur</a>
+                        <a href="" class="sliderPostCategory">Chuyện của tôi</a>
+                    </div>
+                </div>
+                <div class="sliderPost">
+                    <div class="sliderPostImg">
+                        <img src="image/slider_2.png" alt="sliderPostImg">
+                    </div>
+                    <div class="sliderPostMain">
+                        <a href="" class="sliderPostTitle">Lorem ipsum dolor sit amet consectetur</a>
+                        <a href="" class="sliderPostCategory">Chuyện của tôi</a>
+                    </div>
+                </div>
+                <div class="sliderPost">
+                    <div class="sliderPostImg">
+                        <img src="image/slider_3.png" alt="sliderPostImg">
+                    </div>
+                    <div class="sliderPostMain">
+                        <a href="" class="sliderPostTitle">Lorem ipsum dolor sit amet consectetur</a>
+                        <a href="" class="sliderPostCategory">Chuyện của tôi</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swipe">
+                <span class="arrow arrowLeft">
+                    <img src="image/Arrow 1.png" alt="arrowSwipe">
+                </span>
+                <span class="swipeText">Swipe to discover more <span style="color: orange;">popular</span> stories</span>
+                <span class="arrow arrowRight">
+                    <img src="image/Arrow 1.png" alt="arrowSwipe">
+                </span>
+            </div>
+        </div>
     </header>
+    
+    <main>
+        <section class="postSection">
+            <div class="container postContain">
+                <div class="txtTitle">
+                    <span>All stories</span>
+                    <div class="arrowStories">
+                        <img src="image/Arrow 1.png" alt="ArrowStories">
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="postImg">
+                        <img src="image/post_1.png" alt="postImg">
+                    </div>
+                    <div class="postMain">
+                        <a href="" class="postCategory">Chuyện của tôi</a>
+                        <a href="" class="postTitle">Click this card for redirect to full story</a>
+                        <div class="postDescription">Lorem ipsum dolor sit amet consectetur adipiscing elit Lorem ipsum dolor sit amet consectetur adipiscing elit. ipsum dolor sit amet consectetur adipiscing elit.</div>
+                        <div class="postInfoShare">
+                            <p class="postInfo">bởi <a href="" style="font-weight: 700;">Pikachu</a>, 07/07/2011</p>
+                            <a href="" class="postShare">Share</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="postImg">
+                        <img src="image/post_2.png" alt="postImg">
+                    </div>
+                    <div class="postMain">
+                        <a href="" class="postCategory">Chuyện của tôi</a>
+                        <a href="" class="postTitle">Lorem ipsum dolor sit amet consectetur adipiscing elit. aqwrqtqwr</a>
+                        <p class="postDescription">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        <div class="postInfoShare">
+                            <p class="postInfo">bởi <a href="" style="font-weight: 700;">Pikachu</a>, 07/07/2011</p>
+                            <a href="" class="postShare">Share</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="postImg">
+                        <img src="image/post_1.png" alt="postImg">
+                    </div>
+                    <div class="postMain">
+                        <a href="" class="postCategory">Chuyện của tôi</a>
+                        <a href="" class="postTitle">Click this card for redirect to full story</a>
+                        <p class="postDescription">Lorem ipsum dolor sit amet consectetur adipiscing elit Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        <div class="postInfoShare">
+                            <p class="postInfo">bởi <a href="" style="font-weight: 700;">Pikachu</a>, 07/07/2011</p>
+                            <a href="" class="postShare">Share</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="postImg">
+                        <img src="image/post_2.png" alt="postImg">
+                    </div>
+                    <div class="postMain">
+                        <a href="" class="postCategory">Chuyện của tôi</a>
+                        <a href="" class="postTitle">Click this card for redirect to full story</a>
+                        <p class="postDescription">Lorem ipsum dolor sit amet consectetur adipiscing elit Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        <div class="postInfoShare">
+                            <p class="postInfo">bởi <a href="" style="font-weight: 700;">Pikachu</a>, 07/07/2011</p>
+                            <a href="" class="postShare">Share</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pagination">
+            <div class="container paginateContain">
+                <a href="" class="arrowPaginate arrowPrev"><i class="fa fa-chevron-left"></i></a>
+                <ul class="paginate">
+                    <li><a href="">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                    <li><a href="">4</a></li>
+                    <li><a href="">...</a></li>
+                    <li><a href="">5</a></li>
+                    <li><a href="">6</a></li>
+                </ul>
+                <a href="" class="arrowPaginate arrowNext"><i class="fa fa-chevron-right"></i></a>                
+            </div>
+        </section>
+    </main>
 
-    <script src="./js/main.js"></script>
+    <footer>
+        <p>2020 © Ong Dev Project.<br>
+            All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
->>>>>>> 75cd8b3... Blog header
