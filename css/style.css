@@ -43,6 +43,7 @@ nav {
     background: #ffffff;
     position: relative;
     z-index: 9999;
+    box-sizing: border-box;
 }
 
 nav.fixed {
@@ -101,6 +102,7 @@ nav.fixed {
     text-align: center;
     font-family: 'Abhaya Libre', serif;
     font-size: 21px;
+    box-sizing: border-box;
 }
 
 .btnSearch img {
