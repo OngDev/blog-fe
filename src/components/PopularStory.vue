@@ -8,8 +8,8 @@ export default {};
 </script>
 
 <style>
-.popular-story {
+/* .popular-story {
     width: 100%;
     height: 500px;
-}
+} */
 </style>
