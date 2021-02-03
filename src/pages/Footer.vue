@@ -19,6 +19,9 @@ footer {
   background-color: #312c2e;
   width: 100%;
   height: 80px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
 .copyright {
   height: 16px;
