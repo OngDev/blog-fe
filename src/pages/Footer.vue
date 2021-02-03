@@ -11,10 +11,6 @@ export default {};
 </script>
 
 <style>
-@font-face {
-  font-family: "Avenir Next";
-  src: url("../fonts/AvenirNextLTPro-Regular.otf");
-}
 footer {
   background-color: #312c2e;
   width: 100%;
@@ -25,7 +21,7 @@ footer {
   color: #fafafa;
   font-family: "Avenir Next";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1em;
   line-height: 16px;
   padding: 16px 16px;
