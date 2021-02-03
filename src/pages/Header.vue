@@ -47,7 +47,7 @@ header {
   font-size: 24px;
   line-height: 28px;
   float: left;
-  margin: 42px 482px 3px 176px;
+  margin: 42px 408px 3px 266px;
 }
 .title span {
   border-bottom: 1px dashed #6a6a6a;
