@@ -11,6 +11,10 @@
         <div class="category">{{ image.category }}</div>
       </div>
     </div>
+    <div class="swipe">
+      <i class="arrow-left"></i>Swipe to discover more
+      <span>popular</span> stories<i class="arrow-right"></i>
+    </div>
   </div>
 </template>
 
@@ -31,7 +35,7 @@ export default {
         },
         {
           title: "Lorem ipsum dolor sit amet consectetur",
-          category: "Kỹ thuật",
+          category: "Kĩ thuật",
           src: require("../.././src/assets/popular3.png"),
         },
       ],
@@ -46,7 +50,7 @@ export default {
 
 .popular-story {
   width: 100%;
-  height: 300px;
+  height: 330px;
   margin-top: 30px;
 }
 .popular-container {
@@ -94,5 +98,24 @@ export default {
   align-items: center;
   text-align: center;
   color: #fbfbfb;
+}
+.swipe {
+  height: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.8em;
+  line-height: 141.6%;
+  color: rgba(0, 0, 0, 0.4);
+  float: right;
+  width: 37%;
+  padding: 8px 8px;
+}
+.swipe span {
+  color: orange;
+}
+.arrow-left {
+}
+.arrow-right {
 }
 </style>
