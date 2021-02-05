@@ -35,7 +35,10 @@ header {
   line-height: 38px;
   letter-spacing: -0.06em;
   display: inline-block;
-  margin: 33px 66px 4px 66px;
+  margin-top: 33px;
+  margin-bottom: 4px;
+  width: 20%;
+  text-align: center;
 }
 .logo span {
   color: orange;
@@ -47,14 +50,19 @@ header {
   font-size: 24px;
   line-height: 28px;
   display: inline-block;
-  margin: 42px 408px 3px 266px;
+  margin-top: 43px;
+  margin-bottom: 3px;
+  width: 60%;
+  text-align: center;
 }
 .title span {
   border-bottom: 1px dashed #6a6a6a;
   color: #6a6a6a;
 }
 .search {
-  margin: 42px 50px 4px 0px;
+  margin-top: 42px;
+  margin-bottom: 4px;
   display: inline-block;
+  width: 20%;
 }
 </style>
