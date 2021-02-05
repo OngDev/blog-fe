@@ -34,7 +34,7 @@ header {
   font-size: 2em;
   line-height: 38px;
   letter-spacing: -0.06em;
-  float: left;
+  display: inline-block;
   margin: 33px 66px 4px 66px;
 }
 .logo span {
@@ -46,7 +46,7 @@ header {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  float: left;
+  display: inline-block;
   margin: 42px 408px 3px 266px;
 }
 .title span {
@@ -55,6 +55,6 @@ header {
 }
 .search {
   margin: 42px 50px 4px 0px;
-  float: left;
+  display: inline-block;
 }
 </style>

@@ -12,8 +12,9 @@
       </div>
     </div>
     <div class="swipe">
-      <i class="arrow-left"></i>Swipe to discover more
-      <span>popular</span> stories<i class="arrow-right"></i>
+      <img src="../assets/arrow-left.png" />
+      Swipe to discover more <span>popular</span> stories
+      <img src="../assets/arrow-right.png" />
     </div>
   </div>
 </template>
@@ -61,7 +62,7 @@ export default {
 .popular-img {
   width: 300px;
   height: 300px;
-  float: left;
+  display: inline-block;
   margin: auto;
   margin-right: 30px;
   position: relative;
@@ -107,15 +108,15 @@ export default {
   font-size: 0.8em;
   line-height: 141.6%;
   color: rgba(0, 0, 0, 0.4);
-  float: right;
-  width: 37%;
   padding: 8px 8px;
+  display: inline-block;
+  margin-left: 61.5%;
 }
 .swipe span {
   color: orange;
 }
-.arrow-left {
-}
-.arrow-right {
+.swipe img{
+  display: inline-block;
+  width: 20px;
 }
 </style>
