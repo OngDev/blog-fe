@@ -1,5 +1,5 @@
 <template>
-  <div class="popular-story">
+  <!-- <div class="popular-story">
     <div class="popular-container">
       <div
         class="popular-img"
@@ -11,6 +11,24 @@
         <div class="category">{{ image.category }}</div>
       </div>
     </div>
+    <div class="swipe">
+      <img src="../assets/arrow-left.png" />
+      Swipe to discover more <span>popular</span> stories
+      <img src="../assets/arrow-right.png" />
+    </div>
+  </div> -->
+  <div class="popular-story">
+    <el-carousel :interval="4000" class="popular-container" type="card">
+      <el-carousel-item
+        class="popular-img"
+        v-for="(image, index) in popularImages"
+        :key="index"
+      >
+        <img :src="image.src" :alt="'popular' + ++index" />
+        <span>{{ image.title }}</span>
+        <div class="category">{{ image.category }}</div>
+      </el-carousel-item>
+    </el-carousel>
     <div class="swipe">
       <img src="../assets/arrow-left.png" />
       Swipe to discover more <span>popular</span> stories
@@ -39,6 +57,16 @@ export default {
           category: "Kĩ thuật",
           src: require("../.././src/assets/popular3.png"),
         },
+        {
+          title: "Lorem ipsum dolor sit amet consectetur",
+          category: "Test",
+          src: require("../.././src/assets/logo.png"),
+        },
+        {
+          title: "Lorem ipsum dolor sit amet consectetur",
+          category: "Test",
+          src: require("../.././src/assets/logo.png"),
+        },
       ],
     };
   },
@@ -56,8 +84,9 @@ export default {
 }
 .popular-container {
   margin: auto;
-  height: 300px;
+  height: 330px;
   width: 990px;
+  position: relative;
 }
 .popular-img {
   width: 300px;
@@ -65,7 +94,6 @@ export default {
   display: inline-block;
   margin: auto;
   margin-right: 30px;
-  position: relative;
 }
 .popular-img img {
   position: absolute;
