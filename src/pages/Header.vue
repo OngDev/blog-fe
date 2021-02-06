@@ -39,6 +39,7 @@ header {
   margin-bottom: 4px;
   width: 20%;
   text-align: center;
+  min-width: 185px;
 }
 .logo span {
   color: orange;

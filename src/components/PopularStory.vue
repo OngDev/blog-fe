@@ -68,6 +68,10 @@ export default {
   position: relative;
 }
 .popular-img img {
+  position: absolute;
+  background: linear-gradient(to bottom, transparent, #2626266f 95%);
+  width: 300px;
+  height: 300px;
   border-radius: 0.3rem;
 }
 .popular-img span {
@@ -115,7 +119,7 @@ export default {
 .swipe span {
   color: orange;
 }
-.swipe img{
+.swipe img {
   display: inline-block;
   width: 20px;
 }
